@@ -54,7 +54,7 @@
 (define-public nvidia-driver
   (package
     (name "nvidia-driver")
-    (version "465.27")
+    (version "470.74")
     (source
      (origin
        (uri (format #f "http://us.download.nvidia.com/XFree86/Linux-x86_64/~a/~a.run"
@@ -274,7 +274,7 @@ Further xorg should be configured by adding:
 (define-public nvidia-libs
   (package
     (name "nvidia-libs")
-    (version "465.27")
+    (version "470.74")
     (source
      (origin
        (uri (format #f "http://us.download.nvidia.com/XFree86/Linux-x86_64/~a/~a.run"
